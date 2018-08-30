@@ -1,8 +1,8 @@
 {
-  "name": "netlify-lambda",
+  "name": "@leonardodino/netlify-lambda",
   "version": "0.4.0",
   "description": "Build and serve lambda function with webpack compilation",
-  "homepage": "https://github.com/netlify/netlify-lambda#readme",
+  "homepage": "https://github.com/leonardodino/netlify-lambda#readme",
   "main": "bin/cmd.js",
   "bin": {
     "netlify-lambda": "bin/cmd.js"
@@ -14,10 +14,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/netlify/netlify-lambda.git"
+    "url": "git+https://github.com/leonardodino/netlify-lambda.git#npm"
   },
   "bugs": {
-    "url": "https://github.com/netlify/netlify-lambda/issues"
+    "url": "https://github.com/leonardodino/netlify-lambda/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@babel/core": "^7.0.0",
